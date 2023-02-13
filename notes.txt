@@ -1,2 +1,26 @@
+Easy
+
 1. JSX
-2. props
+2. props(passed in + immutable)
+3. state(till the topics we have covered)
+4. Fragments
+..
+..
+...
+...
+....
+LE
+
+Medium Diff
+
+
+
+
+
+
+//////////////////////////////
+Diff
+Redux 
+
+
+
