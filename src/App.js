@@ -3,6 +3,9 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Greet from './components/Greet';
 import Statedemo from './components/Statedemo';
+import Counter from './components/Counter';
+import Binding from './components/Binding';
+import ParentComponent from './components/ParentComponent';
 
 
 function App() {
@@ -18,7 +21,11 @@ function App() {
         <p><button>CLICK</button></p>
        </Greet> */}
 
-       <Statedemo />
+       {/* <Statedemo /> */}
+
+       {/* <Counter/> */}
+       {/* <Binding/> */}
+       <ParentComponent/>
       </header>
     </div>
   );
