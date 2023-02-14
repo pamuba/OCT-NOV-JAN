@@ -3,6 +3,7 @@ Easy
 1. JSX
 2. props(passed in + immutable)
 3. state(till the topics we have covered)
+useState Hook for Function components
 4. Fragments
 ..
 ..
