@@ -6,6 +6,11 @@ import Statedemo from './components/Statedemo';
 import Counter from './components/Counter';
 import Binding from './components/Binding';
 import ParentComponent from './components/ParentComponent';
+import UserGreetings from './components/UserGreetings';
+import NameList from './components/NameList';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
@@ -25,7 +30,25 @@ function App() {
 
        {/* <Counter/> */}
        {/* <Binding/> */}
-       <ParentComponent/>
+       {/* <ParentComponent/> */}
+       {/* <UserGreetings/> */}
+       {/* <NameList/> */}
+       {/* <ErrorBoundary>
+        <Hero heroName="Iron Man"/>
+       </ErrorBoundary>
+
+       <ErrorBoundary>
+        <Hero heroName="Superman"/>
+       </ErrorBoundary>
+
+       <ErrorBoundary>
+        <Hero heroName="Batman"/>
+       </ErrorBoundary>
+
+       <ErrorBoundary>
+        <Hero heroName="Joker"/>
+       </ErrorBoundary> */}
+       <RefsDemo/>
       </header>
     </div>
   );

@@ -7,23 +7,55 @@ useState Hook for Function components
 4. Fragments
 5. Binding
 6. Method as props
-..
-..
-...
-...
-....
-LE
+7. Conditional Rendering
+a. if/else
+b. Element Variables
+c. ternary conditional Operators
+d. Short Circuit Operator
+8. List Rendering
+9. Lifecycle Methods
 
-Medium Diff
+Phases:
+1. MOUNTING: inserted into the DOM
+-constructor
+-render
+-componentDidMount
+-static getDerivedStateFromProps(props, state)
+
+2. UPDATING: state or props
+-render
+-static getDerivedStateFromProps(props, state)
+-shouldComponentUpdate
+-getSnapshotBeforeUpdate(prevProps, prevStae)
+-componentDidUpdate
+
+3. UNMOUNTING: removed from the DOM
+-componentWillUnmount
+
+4. ERROR HANDLING: Errors while rendering
+-static getDerivedStateFromError
+-componentDidCatch
 
 
+10. Error Boundaries
+11. Refs
 
-
-
+17th
+12. Forwarding Refs
+13. HOC
+14. Pure components
+15. Portals
+16. Context API
+17. Making HTTP calls
 
 //////////////////////////////
-Diff
+20th
+Hooks
+Routing
 Redux 
+
+21st
+MERN
 
 
 
