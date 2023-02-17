@@ -11,6 +11,10 @@ import NameList from './components/NameList';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import RefsDemo from './components/RefsDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import PostList from './components/PostList';
+import HooksCounter from './hooks/HooksCounter';
 
 
 function App() {
@@ -48,7 +52,12 @@ function App() {
        <ErrorBoundary>
         <Hero heroName="Joker"/>
        </ErrorBoundary> */}
-       <RefsDemo/>
+       {/* <RefsDemo/> */}
+       {/* <ClickCounter/>
+       <HoverCounter/> */}
+
+       {/* <PostList/> */}
+       <HooksCounter/>
       </header>
     </div>
   );
